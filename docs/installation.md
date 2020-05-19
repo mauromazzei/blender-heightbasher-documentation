@@ -8,7 +8,7 @@
 
 ## Manual Installation
 
-Download HeightBasher from [BlenderMarket](https://www.blender.org/) or [Gumroad](https://gumroad.com/)
+Download HeightBasher from or [Gumroad](https://gumroad.com/)
 
 
 
@@ -16,24 +16,24 @@ Download HeightBasher from [BlenderMarket](https://www.blender.org/) or [Gumroad
 ##### Windows
 Copy the contents of the zip to the addons location:
 example:
-C:\Users\YOUR USER\AppData\Roaming\Blender Foundation\Blender\2.8X\scripts\addons  
+`C:\Users\YOUR USER\AppData\Roaming\Blender Foundation\Blender\2.8X\scripts\addons`  
 
 
 
 ##### OSX
 Copy the contents of the zip to the addons location:
 example:
-/Users/YOUR USER/Library/Application Support/Blender/2.8X/scripts/addons  
+`/Users/YOUR USER/Library/Application Support/Blender/2.8X/scripts/addons`  
 
 or from the finder menu
 "Go" -> "Library"
-and then navigate to Application Support/Blender/2.8X/scripts/addons  
+and then navigate to `Application Support/Blender/2.8X/scripts/addons`  
 
 
 
 ##### Linux
 Copy the contents of the zip to the addons location:
-~/.config/blender/2.8X/scripts/addons
+`~/.config/blender/2.8X/scripts/addons`
 
 
 
@@ -43,8 +43,8 @@ Copy the contents of the zip to the addons location:
 ---
 
 ## Install from Blender
-Open Blender -> open settings panel
-Navigate to addons, click on "install" and select the zip file you've already downloaded
+Open Blender -> open settings panel  
+navigate to "addons", click on "install" and select the zip file you've already downloaded
 
 
 **Important: Never override the addon !!** 

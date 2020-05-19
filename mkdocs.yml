@@ -4,11 +4,9 @@ repo_url: https://github.com/mauromazzei/blender-heightbasher-documentation
 google_analytics: ['UA-XXXXXXXX-X', 'mkdocs.org']
 nav:
     - 'index.md'
-    - 'about.md'
     - 'installation.md'
     - 'getting_started.md'
     - 'interface.md'
-    - 'download.md'
-    - 'Buy': 'https://gumroad.com/'
+    - 'Buy & Download': 'https://gumroad.com/'
 theme: readthedocs
 
