@@ -1,7 +1,6 @@
 # HeightBasher Documentation
 
-![HeightBasher Cover]
-(https://github.com/mauromazzei/blender-heightbasher-documentation/docs/assets/cover.png)
+![HeightBasher Cover](./docs/img/cover.png)
 
 ---
 
