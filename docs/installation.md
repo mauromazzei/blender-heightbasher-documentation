@@ -46,6 +46,7 @@ Copy the contents of the zip to the addons location:
 Open Blender -> open settings panel  
 navigate to "addons", click on "install" and select the zip file you've already downloaded
 
+![HeightBasher About](img/install.gif)
 
 **Important: Never override the addon !!** 
 >If you choose to install a newer version of the package please make sure that you've already uninstalled the previous version by clicking on the "Remove" button inside the addon preference
