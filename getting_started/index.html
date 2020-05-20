@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Mauro Mazzei, Emiliano Colantoni">
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Getting Started - HeightBasher Docs</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Getting Started";
+    var mkdocs_page_input_path = "getting_started.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+  <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-XXXXXXXX-X', 'mkdocs.org');
+      ga('send', 'pageview');
+  </script>
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> HeightBasher Docs</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">HeightBasher Documentation</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../installation/">Installation</a>
+                    </li>
+                </ul>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Getting Started</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#setup-the-scene">Setup the Scene</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#working-with-canvas">Working with Canvas</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#working-with-kitstamp">Working with Kitstamp</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#provided-template">Provided Template</a>
+    </li>
+    </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../interface/">Interface</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="" href="https://gumroad.com/">Buy & Download</a>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">HeightBasher Docs</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Getting Started</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        <a href="https://github.com/mauromazzei/blender-heightbasher-documentation/edit/master/docs/getting_started.md"
+          class="icon icon-github"> Edit on GitHub</a>
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="getting-started">Getting Started</h1>
+<p>Before to start, in order to speed up the confidence with HeightBasher we provided an empty blender project that contains an optimized workspace.
+Check it out at the end of the page.</p>
+<hr />
+<h2 id="setup-the-scene">Setup the Scene</h2>
+<p>When working on a brand new project it's important to set some parameter in order to make HeightBasher works correctly</p>
+<ol>
+<li>
+<p>In the "Color Management" Panel switch the "View Transform" from "Filmic" to "Standard"
+<img alt="Color Management Panel" src="../img/color_management_panel.png" />  </p>
+</li>
+<li>
+<p>In the "Output" Panel set the "Color Depth" to 16-bit or higher
+<img alt="Output Panel" src="../img/output_panel.png" /></p>
+</li>
+<li>
+<p>Set the view to Z so you will simulate a 2d environment</p>
+</li>
+</ol>
+<hr />
+<h2 id="working-with-canvas">Working with Canvas</h2>
+<p>The first step is to create a canvas where all the brushes will be drawn, this operation will enable all the other operators.</p>
+<p>Now you will have to load as many brushes as you want by clicking on on "Add Brush". 
+This operation will create an empty object in the center of the canvas, all the empties will be stored in a dedicated Collection in order to keep an ordered workspace.</p>
+<p>Each brush is invisible unless you attach a texture to it, you can do it by loading a new texture from the disk or selecting a preloaded texture from the library</p>
+<p><img alt="HeightBasher" src="../img/HB_01.gif" /></p>
+<p>Play with the brushes, position, rotation and scale as normals blender object</p>
+<p><img alt="HeightBasher" src="../img/HB_02.gif" /></p>
+<p>but you can mix all together by the Factor slider, it's range is from -1 to 1 and it will merge the mix of the brushes in order to add, mix or cut elements</p>
+<p><img alt="HeightBasher" src="../img/HB_03.gif" /></p>
+<p>Each brush can be selected by it's empty object both in the scene or UI</p>
+<p>When you're ready with the canvas you can choose to render it to a file as a texture (it will open a browser dialog) or to render directly to the kitstamp mesh</p>
+<hr />
+<h2 id="working-with-kitstamp">Working with Kitstamp</h2>
+<p>It's a 3d live-rendered object from the canvas (or from a loaded texture).
+You can operate on the rendering with these provided operator:</p>
+<p><img alt="HeightBasher" src="../img/HB_04.gif" /></p>
+<ul>
+<li>
+<p><strong>Subdivision Level:</strong><br />
+Sets the previsualization quality of the output
+There are 4 levels.
+Level 1 and 2 are fast and gives you the opportunity to check your work during the process.
+Level 3 and 4 are more intense and needs time to process, we suggest to use it at the end of the workflow for the final renders</p>
+</li>
+<li>
+<p><strong>Displacement Strength:</strong><br />
+Sets the extrusion level</p>
+</li>
+<li>
+<p><strong>Displacement Clamp:</strong><br />
+Helps you to keep the scene clean</p>
+</li>
+<li>
+<p><strong>Remesher:</strong><br />
+Sets the decimation value of the mesh. We also provided the opportunity of automatically calculate the smart uv</p>
+</li>
+</ul>
+<hr />
+<h2 id="provided-template">Provided Template</h2>
+<p>Open the addon zip file, extract <code>HB_Template.blend</code> and open it.<br />
+We provided this template with 3 areas</p>
+<ul>
+<li>Canvas view: 2d visualization of the brushes</li>
+<li>HeightBasher UI: Panel that permits you to create/destroy/update canvas, brushes, kitstamp and final rendering</li>
+<li>Kitstamp View: live render of your project</li>
+</ul>
+<p><img alt="HeightBasher" src="../img/template.png" /></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../interface/" class="btn btn-neutral float-right" title="Interface">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../installation/" class="btn btn-neutral" title="Installation"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a href="https://github.com/mauromazzei/blender-heightbasher-documentation/" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../installation/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../interface/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
