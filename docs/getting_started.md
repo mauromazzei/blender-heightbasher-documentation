@@ -1,12 +1,12 @@
 # Getting Started
 
-Before to start, in order to speed up the confidence with HeightBasher we provided an empty blender project that contains an optimized workspace.
+Before to start, in order to speed up the confidence with Heightbasher we provided an empty blender project that contains an optimized workspace.
 Check it out at the end of the page.
 
 ---
 
 ## Setup the Scene
-When working on a brand new project it's important to set some parameter in order to make HeightBasher works correctly
+When working on a brand new project it's important to set some parameter in order to make Heightbasher works correctly
 
 1. In the "Color Management" Panel switch the "View Transform" from "Filmic" to "Standard"
 ![Color Management Panel](img/color_management_panel.png)  
@@ -28,15 +28,15 @@ This operation will create an empty object in the center of the canvas, all the 
 
 Each brush is invisible unless you attach a texture to it, you can do it by loading a new texture from the disk or selecting a preloaded texture from the library
 
-![HeightBasher](img/HB_01.gif)
+![Heightbasher](img/HB_01.gif)
 
 Play with the brushes, position, rotation and scale as normals blender object
 
-![HeightBasher](img/HB_02.gif)
+![Heightbasher](img/HB_02.gif)
 
 but you can mix all together by the Factor slider, it's range is from -1 to 1 and it will merge the mix of the brushes in order to add, mix or cut elements
 
-![HeightBasher](img/HB_03.gif)
+![Heightbasher](img/HB_03.gif)
 
 Each brush can be selected by it's empty object both in the scene or UI
 
@@ -49,7 +49,7 @@ When you're ready with the canvas you can choose to render it to a file as a tex
 It's a 3d live-rendered object from the canvas (or from a loaded texture).
 You can operate on the rendering with these provided operator:
 
-![HeightBasher](img/HB_04.gif)
+![Heightbasher](img/HB_04.gif)
 
 - **Subdivision Level:**  
 Sets the previsualization quality of the output
@@ -75,7 +75,7 @@ Open the addon zip file, extract `HB_Template.blend` and open it.
 We provided this template with 3 areas
 
 - Canvas view: 2d visualization of the brushes
-- HeightBasher UI: Panel that permits you to create/destroy/update canvas, brushes, kitstamp and final rendering
+- Heightbasher UI: Panel that permits you to create/destroy/update canvas, brushes, kitstamp and final rendering
 - Kitstamp View: live render of your project
 
-![HeightBasher](img/template.png)
+![Heightbasher](img/template.png)
