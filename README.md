@@ -20,8 +20,3 @@ In order to work on the documentation you need to install mkdocs:
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
 
-
-
----
-based on <a href="https://readthedocs.io" target="_blank">readthedocs.io</a>
-
