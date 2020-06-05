@@ -1,11 +1,12 @@
-# HeightBasher Documentation
+# Heightbasher Documentation
 
-![HeightBasher Cover](./docs/img/cover.png)
+![Heightbasher Cover](./docs/img/cover.png)
 
 ---
 
-This is the source code for the <a href="https://gumroad.com" target="_blank">Blender HeightBasher Addon Documentation</a>
+This is the source code for the <a href="https://gumroad.com/VszUb" target="_blank">Blender 2.8+ Heightbasher Addon Documentation</a>
 
+Heightbasher is a creative tool dedicated to concept artists that gives you the opportunity to create 3D concepts through a fast and non-destructive workflow thanks to a real-time rendering of multiple heightmaps drawn in a 2d environment.
 
 
 ## Installation

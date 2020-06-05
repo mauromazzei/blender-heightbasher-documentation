@@ -8,7 +8,7 @@
 
 ## Manual Installation
 
-Download Heightbasher from or [Gumroad](https://gumroad.com/)
+Download Heightbasher from or [Gumroad](https://gumroad.com/VszUb)
 
 
 
