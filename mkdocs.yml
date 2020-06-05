@@ -1,7 +1,7 @@
 site_name: Heightbasher Docs
 site_author: Mauro Mazzei, Emiliano Colantoni
 repo_url: https://github.com/mauromazzei/blender-heightbasher-documentation
-google_analytics: ['UA-XXXXXXXX-X', 'mkdocs.org']
+google_analytics: ['UA-168675898-1', 'mkdocs.org']
 nav:
     - 'index.md'
     - 'installation.md'
