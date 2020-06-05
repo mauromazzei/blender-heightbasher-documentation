@@ -12,14 +12,6 @@ Heightbasher is an addon for [Blender 2.8+](https://www.blender.org/), a creativ
 
 ![Biker](img/biker.png)  
 ![Biker](img/bot.png)  
-![Biker](img/tunnel.png)  
-  
-  
-
-
-  
-
-
-  
+![Biker](img/tunnel.png)   
 ![Biker](img/shotgun.png)  
 ![Biker](img/m4.png)  
