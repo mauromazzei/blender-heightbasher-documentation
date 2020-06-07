@@ -23,7 +23,7 @@ example:
 ##### OSX
 Copy the contents of the zip to the addons location:
 example:
-`/Users/YOUR USER/Library/Application Support/Blender/2.8X/scripts/addons`  
+`~/Library/Application Support/Blender/2.8X/scripts/addons`  
 
 or from the finder menu
 "Go" -> "Library"
